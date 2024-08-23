@@ -1,71 +1,42 @@
 # Prediction-with-Regression
+
+Below is a summary of that information:
+
 Project 1: Predicting Salary Based on Years of Experience
-Objective
+Objective:
+
 Develop a predictive model to estimate an employee's salary based on their years of experience.
-Use Case
+Use Case:
 
-- **Description:** Use historical data of employee experience and salary to predict future salaries.
-- **Business Context:** Helps HR teams in determining fair and competitive salaries for recruitment and budgeting.
-- **Expected Outcome:** Accurate salary predictions based on the experience, improving HR decision-making.
+Description: Use historical employee experience and salary data to predict future salaries.
+Business Context: Helps HR teams determine fair and competitive salaries for recruitment and budgeting.
+Expected Outcome: Accurate salary predictions based on experience, improving HR decision-making.
+Tools Used:
 
-Solution Architecture
+Pandas: For data manipulation and analysis.
+Seaborn & Matplotlib: For data visualization.
+Scikit-learn: For model development and evaluation.
+Insights Gathered:
 
-- **Data Collection:** Historical data of employee experience and salary.
-- **Data Processing:** Data cleaning, exploratory data analysis, and feature engineering.
-- **Model Development:** Simple Linear Regression.
-- **Model Evaluation:** R-squared score, residual analysis.
+There is a high correlation between years of experience and salary.
+The linear regression model explains a significant portion of the variance in salary based on experience.
 
-Tools Used
-Pandas, Seaborn, Matplotlib, Scikit-learn
-Insights Gathered
 
-- High correlation between years of experience and salary.
-- The linear regression model explains a significant portion of the variance in salary based on experience.
-
-Challenges Faced
-
-- Ensuring data quality and dealing with any outliers.
-- Balancing model complexity with interpretability.
-
-Complexity
-
-- **Data Complexity:** The dataset was relatively simple with two columns, but the relationship between them required careful analysis.
-- **Algorithmic Complexity:** Simple linear regression with straightforward implementation.
-
-Time Taken
-Approximately 20 Seconds.
 Project 2: Predicting Delivery Time Based on Sorting Time
-Objective
-Build a predictive model to estimate delivery time based on sorting time of packages.
-Use Case
+Objective:
 
-- **Description:** Predict delivery times based on sorting times to optimize logistics operations.
-- **Business Context:** Enhances operational efficiency in logistics by providing accurate delivery time predictions.
-- **Expected Outcome:** Improved delivery time estimates, leading to better customer satisfaction and resource allocation.
+Build a predictive model to estimate delivery time based on package sorting time.
+Use Case:
 
-Solution Architecture
+Description: Predict delivery times based on sorting times to optimize logistics operations.
+Business Context: Enhances operational efficiency in logistics by providing accurate delivery time predictions.
+Expected Outcome: Improved delivery time estimates, leading to better customer satisfaction and resource allocation.
+Tools Used:
 
-- **Data Collection:** Data on sorting and delivery times.
-- **Data Processing:** Cleaning and exploratory data analysis.
-- **Model Development:** Simple Linear Regression.
-- **Model Evaluation:** R-squared score, residual analysis.
+Pandas: For data manipulation and analysis.
+Seaborn & Matplotlib: For data visualization.
+Scikit-learn: For model development and evaluation.
+Insights Gathered:
 
-Tools Used
-Pandas, Seaborn, Matplotlib, Scikit-learn
-Insights Gathered
-
-- Strong correlation between sorting time and delivery time.
-- The model provides reliable predictions that can improve logistics planning.
-
-Challenges Faced
-
-- Managing the small dataset size and ensuring the model generalizes well.
-- Dealing with slight skewness in the data distribution.
-
-Complexity
-
-- **Data Complexity:** The dataset was small but contained important information on the relationship between sorting and delivery times.
-- **Algorithmic Complexity:** Linear regression provided a simple yet effective solution.
-
-Time Taken
-Approximately 18 Seconds.
+Strong correlation between sorting time and delivery time.
+The model provides reliable predictions that can improve logistics planning.

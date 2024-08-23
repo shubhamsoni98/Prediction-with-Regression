@@ -2,8 +2,8 @@
 
 Below is a summary of that information:
 
-Project 1: Predicting Salary Based on Years of Experience
-Objective:
+**Project 1: Predicting Salary Based on Years of Experience
+**Objective:
 
 Develop a predictive model to estimate an employee's salary based on their years of experience.
 Use Case:
@@ -22,8 +22,8 @@ There is a high correlation between years of experience and salary.
 The linear regression model explains a significant portion of the variance in salary based on experience.
 
 
-Project 2: Predicting Delivery Time Based on Sorting Time
-Objective:
+**Project 2: Predicting Delivery Time Based on Sorting Time
+**Objective:
 
 Build a predictive model to estimate delivery time based on package sorting time.
 Use Case:
